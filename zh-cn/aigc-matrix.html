@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIGC视频矩阵 - 澳门国进科技AI</title>
+    <!-- 引入基础样式表 -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../particles.css">
+    <!-- 引入Noto Sans SC字体，用于简体中文显示 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入Font Awesome图标库 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏，与主页保持一致 -->
+    <nav class="navbar">
+        <a href="index.html" class="logo-container">
+            <div class="cube-logo" id="cubeLogo"></div>
+        </a>
+       
+        <button class="ai-agent-btn">
+            <i class="fas fa-robot"></i>
+            <span>进入工作台</span>
+        </button>
+        <div class="language-dropdown">
+            <button class="language-btn"><i class="fas fa-globe"></i></button>
+            <div class="language-options">
+                <a href="../aigc-matrix.html">繁體中文</a>
+                <a href="aigc-matrix.html" class="active">简体中文</a>
+                <a href="../en/aigc-matrix.html">English</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区 -->
+    <main class="product-content">
+        <!-- 添加粒子效果背景 -->
+        <div id="particles-js"></div> 
+        <section class="product-hero">
+            <h1>AIGC视频矩阵</h1>
+            <p class="hero-description">智能化视频生成与管理平台，助力内容创作效率提升</p>
+        </section>
+
+        <!-- 产品特点展示区域 -->
+        <section class="product-features">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>智能视频生成</h3>
+                    <p>基于AI技术，自动将文本转换为高质量视频内容，大幅提升创作效率</p>
+                </div>
+                <div class="feature-card">
+                    <h3>多平台发布</h3>
+                    <p>一键发布到各大社交媒体平台，实现内容的广泛传播</p>
+                </div>
+                <div class="feature-card">
+                    <h3>数据分析</h3>
+                    <p>深度分析视频表现数据，优化内容策略</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 案例展示区域 -->
+        <section class="case-studies">
+            <div class="case-grid">
+                <div class="case-card">
+                    <div class="case-image" style="background-image: url('path/to/case1.jpg');"></div>
+                    <div class="case-content">
+                        <h4>电商产品展示</h4>
+                        <p>为电商客户自动生成产品展示视频，提升转化率</p>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image" style="background-image: url('path/to/case2.jpg');"></div>
+                    <div class="case-content">
+                        <h4>教育培训课程</h4>
+                        <p>将课程内容转换为生动的视频讲解，提升学习体验</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚部分 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="column">
+                    <h4>项目介绍</h4>
+                    <a href="aigc-matrix.html" class="active">AIGC视频矩阵</a>
+                    <a href="nfc-matrix.html">NFC矩阵</a>
+                    <a href="ai-agent-platform.html">AI Agent平台</a>
+                    <a href="web-dev.html">网站/APP/小程序开发</a>
+                    <a href="ai-agent-custom.html">AI-Agent定制开发</a>
+                </div>
+                <div class="contact-info">
+                    <h4>关于我们</h4>
+                    <a href="tutorial.html">使用教程</a>
+                    <a href="download.html">下载中心</a>
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="study-links">
+                    <h4>研发方向</h4>
+                    <a href="ai-company.html">AI一人公司</a>
+                    <a href="ai-assistant.html">AI私人助理</a>
+                    <a href="ai-employee.html">AI员工</a>
+                </div>
+                <div class="social-links">
+                    <h4>关注我们</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon tiktok" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-icon redbook" title="小红书">
+                            <i class="fas fa-book"></i>
+                        </a>
+                        <a href="#" class="social-icon wechat" title="微信">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 澳门国进科技一人有限公司 版权所有</p>
+            <div class="patent-numbers"></div>
+        </div>
+    </footer>
+
+    <!-- 引入必要的JavaScript文件 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>

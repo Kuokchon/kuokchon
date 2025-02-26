@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI私人助理 - 澳门国进科技AI</title>
+    <!-- 引入基础样式表 -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../ai-pages.css">
+    <!-- 引入粒子效果样式 -->
+    <link rel="stylesheet" href="../particles.css">
+    <!-- 引入Noto Sans SC字体，用于简体中文显示 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入Font Awesome图标库 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <a href="index.html" class="logo-container">
+            <div class="cube-logo" id="cubeLogo"></div>
+        </a>
+       
+        <button class="ai-agent-btn">
+            <i class="fas fa-robot"></i>
+            <span>进入工作台</span>
+        </button>
+        <div class="language-dropdown">
+            <button class="language-btn"><i class="fas fa-globe"></i></button>
+            <div class="language-options">
+                <a href="../ai-assistant.html">繁體中文</a>
+                <a href="ai-assistant.html" class="active">简体中文</a>
+                <a href="../en/ai-assistant.html">English</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区 -->
+    <main class="product-content">
+        <!-- 添加粒子效果背景 -->
+        <div id="particles-js"></div>
+
+        <!-- 产品介绍区域 -->
+        <div class="product-intro">
+            <h1>AI私人助理</h1>
+            <p class="intro-text">您的智能生活管家，为您提供全方位的个人服务</p>
+            
+            <!-- 功能特点区 -->
+            <div class="features-section">
+                <h2>主要功能</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>日程管理</h3>
+                        <p>智能安排您的每日行程，提醒重要事项</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-comments"></i>
+                        <h3>智能对话</h3>
+                        <p>自然语言交互，理解并执行您的指令</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>个性化推荐</h3>
+                        <p>基于您的喜好，提供精准的建议和服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚部分 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="column">
+                    <h4>项目介绍</h4>
+                    <a href="aigc-matrix.html">AIGC视频矩阵</a>
+                    <a href="nfc-matrix.html">NFC矩阵</a>
+                    <a href="ai-agent-platform.html">AI Agent平台</a>
+                    <a href="web-dev.html">网站/APP/小程序开发</a>
+                    <a href="ai-agent-custom.html">AI-Agent定制开发</a>
+                </div>
+                <div class="contact-info">
+                    <h4>关于我们</h4>
+                    <a href="tutorial.html">使用教程</a>
+                    <a href="download.html">下载中心</a>
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="study-links">
+                    <h4>研发方向</h4>
+                    <a href="ai-company.html">AI一人公司</a>
+                    <a href="ai-assistant.html" class="active">AI私人助理</a>
+                    <a href="ai-employee.html">AI员工</a>
+                </div>
+                <div class="social-links">
+                    <h4>关注我们</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon tiktok" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-icon redbook" title="小红书">
+                            <i class="fas fa-book"></i>
+                        </a>
+                        <a href="#" class="social-icon wechat" title="微信">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 澳门国进科技一人有限公司 版权所有</p>
+            <div class="patent-numbers"></div>
+        </div>
+    </footer>
+
+    <!-- 引入必要的JavaScript文件 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>

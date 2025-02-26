@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website/APP Development - Macau GuoJin Technology AI</title>
+    <!-- 引入基本樣式表 -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../particles.css">
+    <!-- 引入Noto Sans字體，用於英文顯示 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入Font Awesome圖標庫 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 頂部導航欄 -->
+    <nav class="navbar">
+        <a href="index.html" class="logo-container">
+            <div class="cube-logo" id="cubeLogo"></div>
+        </a>
+       
+        <button class="ai-agent-btn">
+            <i class="fas fa-robot"></i>
+            <span>Enter Workspace</span>
+        </button>
+        <div class="language-dropdown">
+            <button class="language-btn"><i class="fas fa-globe"></i></button>
+            <div class="language-options">
+                <a href="../index.html">繁體中文</a>
+                <a href="../zh-cn/web-dev.html">简体中文</a>
+                <a href="web-dev.html" class="active">English</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要內容區 -->
+    <main class="product-content">
+        <!-- 添加粒子效果背景 -->
+        <div id="particles-js"></div>    
+        <section class="product-hero">
+            <h1>Website/APP Development</h1>
+            <p class="hero-description">Professional development team creating high-quality digital solutions</p>
+        </section>
+
+        <!-- 產品特點展示區域 -->
+        <section class="product-features">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Full-Stack Development</h3>
+                    <p>Providing complete development services from frontend to backend, ensuring system stability</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Cross-Platform Compatibility</h3>
+                    <p>Supporting development across Web, iOS, Android platforms for seamless experience</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Customized Services</h3>
+                    <p>Providing personalized solutions based on client needs, creating exclusive applications</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 案例展示區域 -->
+        <section class="case-studies">
+            <div class="case-grid">
+                <div class="case-card">
+                    <div class="case-image" style="background-image: url('../path/to/web-case1.jpg');"></div>
+                    <div class="case-content">
+                        <h4>E-commerce Platform Development</h4>
+                        <p>Creating comprehensive e-commerce platforms to enhance user shopping experience</p>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image" style="background-image: url('../path/to/web-case2.jpg');"></div>
+                    <div class="case-content">
+                        <h4>Enterprise Management System</h4>
+                        <p>Customized enterprise management systems to improve operational efficiency</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁腳 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="column">
+                    <h4>Projects</h4>
+                    <a href="aigc-matrix.html">AIGC Video Matrix</a>
+                    <a href="nfc-matrix.html">NFC Matrix</a>
+                    <a href="ai-agent-platform.html">AI Agent Platform</a>
+                    <a href="web-dev.html" class="active">Website/APP Development</a>
+                    <a href="ai-agent-custom.html">AI-Agent Custom Development</a>
+                </div>
+                <div class="contact-info">
+                    <h4>About Us</h4>
+                    <a href="tutorial.html" class="active">Tutorials</a>
+                    <a href="download.html">Downloads</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="study-links">
+                    <h4>Research</h4>
+                    <a href="ai-company.html" class="active">AI One-Person Company</a>
+                    <a href="ai-assistant.html">AI Personal Assistant</a>
+                    <a href="ai-employee.html">AI Employee</a>
+                </div>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon tiktok" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-icon redbook" title="Red Book">
+                            <i class="fas fa-book"></i>
+                        </a>
+                        <a href="#" class="social-icon wechat" title="WeChat">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Macau GuoJin Technology Limited Company. All rights reserved.</p>
+            <div class="patent-numbers"></div>
+        </div>
+    </footer>
+
+    <!-- 引入必要的JavaScript文件 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>
