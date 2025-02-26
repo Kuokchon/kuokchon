@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI員工 - 澳門國進科技AI</title>
+    <!-- 引入基本樣式表 -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ai-pages.css">
+    <!-- 引入粒子效果樣式 -->
+    <link rel="stylesheet" href="particles.css">
+    <!-- 引入Noto Sans TC字體，用於中文顯示 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入Font Awesome圖標庫 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 頂部導航欄 -->
+    <nav class="navbar">
+        <a href="index.html" class="logo-container">
+            <div class="cube-logo" id="cubeLogo"></div>
+        </a>
+       
+        <button class="ai-agent-btn">
+            <i class="fas fa-robot"></i>
+            <span>進入工作台</span>
+        </button>
+        <div class="language-dropdown">
+            <button class="language-btn"><i class="fas fa-globe"></i></button>
+            <div class="language-options">
+                <a href="#" class="active">繁體中文</a>
+                <a href="zh-cn/ai-employee.html">简体中文</a>
+                <a href="en/ai-employee.html">English</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要內容區 -->
+    <main class="product-content">
+        <!-- 添加粒子效果背景 -->
+        <div id="particles-js"></div>
+
+        <!-- 產品介紹區域 -->
+        <div class="product-intro">
+            <h1>AI員工</h1>
+            <p class="intro-text">智能化工作夥伴，提升企業運營效率</p>
+            
+            <!-- 功能特點區 -->
+            <div class="features-section">
+                <h2>主要功能</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>流程自動化</h3>
+                        <p>自動執行重複性工作，提高工作效率</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>智能決策</h3>
+                        <p>基於數據分析，提供專業建議</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h3>團隊協作</h3>
+                        <p>無縫對接人類團隊，提升協作效率</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 頁腳部分 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="column">
+                    <h4>項目介紹</h4>
+                    <a href="aigc-matrix.html">AIGC視頻矩陣</a>
+                    <a href="nfc-matrix.html">NFC矩陣</a>
+                    <a href="ai-agent-platform.html">AI Agent平台</a>
+                    <a href="web-dev.html">網站/APP/小程序開發</a>
+                    <a href="ai-agent-custom.html">AI-Agent定制開發</a>
+                </div>
+                <div class="contact-info">
+                    <h4>關於我們</h4>
+                    <a href="tutorial.html">使用教程</a>
+                    <a href="download.html">下載中心</a>
+                    <a href="contact.html">聯繫我們</a>
+                </div>
+                <div class="study-links">
+                    <h4>研發方向</h4>
+                    <a href="ai-company.html">AI一人公司</a>
+                    <a href="ai-assistant.html">AI私人助理</a>
+                    <a href="ai-employee.html" class="active">AI員工</a>
+                </div>
+                <div class="social-links">
+                    <h4>關注我們</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon tiktok" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-icon redbook" title="小紅書">
+                            <i class="fas fa-book"></i>
+                        </a>
+                        <a href="#" class="social-icon wechat" title="WeChat">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 澳門國進科技一人有限公司 版權所有</p>
+            <div class="patent-numbers"></div>
+        </div>
+    </footer>
+
+    <!-- 引入必要的JavaScript文件 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

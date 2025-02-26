@@ -1,0 +1,146 @@
+/* AI相關頁面的專用樣式 */
+
+/* 產品介紹區域的基本樣式 */
+.product-intro {
+    position: relative;
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/* 主標題樣式 */
+.product-intro h1 {
+    font-size: 3rem;
+    color: #3113ab;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    animation: fadeInDown 1s ease-out;
+}
+
+/* 介紹文字樣式 */
+.intro-text {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* 功能特點區域樣式 */
+.features-section {
+    padding: 3rem 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* 功能特點區域標題 */
+.features-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+/* 功能卡片網格布局 */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+/* 功能卡片樣式 */
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 功能卡片懸停效果 */
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 功能卡片圖標樣式 */
+.feature-card i {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    margin-bottom: 1.5rem;
+}
+
+/* 功能卡片標題樣式 */
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* 功能卡片描述文字樣式 */
+.feature-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* 動畫效果定義 */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .product-intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-text {
+        font-size: 1.2rem;
+    }
+
+    .features-section h2 {
+        font-size: 2rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 1.5rem;
+    }
+}
